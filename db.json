@@ -1,17 +1,6 @@
 {
   "products": [
     {
-      "name": "testing",
-      "images": [
-        {
-          "url": "https://res.cloudinary.com/dxhtr3l8d/image/upload/v1689838464/q27c051vgdlp0uvj0his.jpg"
-        }
-      ],
-      "price": 100,
-      "id": "a418c493-45ac-429d-a89e-31578f260078",
-      "createdAt": 1689838474409
-    },
-    {
       "name": "Product 2",
       "images": [
         {
