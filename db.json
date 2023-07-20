@@ -1,0 +1,79 @@
+{
+  "products": [
+    {
+      "name": "testing",
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dxhtr3l8d/image/upload/v1689838464/q27c051vgdlp0uvj0his.jpg"
+        }
+      ],
+      "price": 100,
+      "id": "a418c493-45ac-429d-a89e-31578f260078",
+      "createdAt": 1689838474409
+    },
+    {
+      "name": "Product 2",
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dxhtr3l8d/image/upload/v1689857227/cg8dtxjhu7muxsmhd5hv.jpg"
+        }
+      ],
+      "price": 50,
+      "id": "e5c3b355-d9fe-41ae-b641-ea4d85498c84",
+      "createdAt": 1689857232053
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": "c61d1f46-cc81-4b8b-bae9-0074d2cc7efd",
+      "userName": "rizvi",
+      "phone": "01811771352",
+      "address": "Mirpur-10",
+      "productId": "a418c493-45ac-429d-a89e-31578f260078",
+      "productName": "Shirt",
+      "Price": "100",
+      "createdAt": 1689845770478
+    },
+    {
+      "id": 2,
+      "userId": "c61d1f46-cc81-4b8b-bae9-0074d2cc7efd",
+      "userName": "hridoy",
+      "phone": "01716102755",
+      "address": "Mirpur-10",
+      "productId": "a418c493-45ac-429d-a89e-31578f260078",
+      "productName": "jeans",
+      "Price": "200",
+      "createdAt": 1689845770478
+    },
+    {
+      "id": 3,
+      "userId": "c61d1f46-cc81-4b8b-bae9-0074d2cc7efd",
+      "userName": "khalid",
+      "phone": "01755893620",
+      "address": "Mirpur-10",
+      "productId": "a418c493-45ac-429d-a89e-31578f260078",
+      "productName": "shoe",
+      "Price": "500",
+      "createdAt": 1689845770478
+    }
+  ],
+  "customers": [
+    {
+      "name": "rizvi",
+      "email": "rizvi@gmail.com",
+      "password": "password",
+      "phone": "01811771352",
+      "id": "c61d1f46-cc81-4b8b-bae9-0074d2cc7efd",
+      "createdAt": 1689845770478
+    }
+  ],
+  "adminLogin": {
+    "name":"rizvi",
+    "email":"rizvi@gmail.com",
+    "phone": "01811771352",
+    "password": "12345678",
+    "role":"admin",
+    "token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJPbmxpbmUgSldUIEJ1aWxkZXIiLCJpYXQiOjE2ODk4NjY4MDMsImV4cCI6MTcyMTQwMjgwMywiYXVkIjoid3d3LmV4YW1wbGUuY29tIiwic3ViIjoianJvY2tldEBleGFtcGxlLmNvbSIsIlBob25lIjoiMDE4MTE3NzEzNTIiLCJFbWFpbCI6InJpenZpQGdtYWlsLmNvbSIsIlJvbGUiOiJhZG1pbiIsIk5hbWUiOiJyaXp2aSJ9.giIkxgF70IzgQYf2Sx921pI6SBTJyivERngMLwJNw0U"
+  }
+}
